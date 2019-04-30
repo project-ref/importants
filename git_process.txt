@@ -1,0 +1,39 @@
+Git commands
+0. git clone path, git clone path .(to clone in current folder directly)
+1. git status
+2. git pull
+3. git add .
+4. git add filepath
+5. git commit -m commit message
+6. git log
+7. git push
+8. git stash list
+9. git stash
+10. git stash apply
+11. git stash clear
+12. git reset - To remove all files from staged area
+13. git reset HEAD^ - To remove last commit but keep changes
+
+To push commit from dev to master
+1. git cherry-pick commit id
+2. git cherry-pick --abort (to abort the commit if conflict)
+
+Working on server via ssh
+
+1(a). To push commit from git to server
+1. Login via putty using ip address
+2. Enter server username and password
+3. Go to root directory
+4. git pull
+5. :q! to exit without saving
+
+1(b). Edit file in ssh
+1. got to file directory
+2. vim filename
+3. Press i to enter into edit mode
+4. Esc after edit file
+5. :wq enter to save and exit file
+
+1(c). To rename file
+1. mv oldfilename newfilename
+
